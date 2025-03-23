@@ -1,0 +1,56 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mainBox {
+    position: relative;
+    top: 100px;
+    left: 550px;
+    border-radius: 30px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ff6666;
+    height: 500px;
+    width: 500px;
+}
+
+.move {
+    align-items: center;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.value {
+    color: white;
+    position: relative;
+    left: -50px;
+    font-size: 100px;
+    align-content: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+    left: -100px;
+    margin: 10px;
+    margin-top: 50px;
+    height: 100px;
+    width: 300px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+}

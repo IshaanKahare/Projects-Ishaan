@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkcyan;
+    text-align: center;
+}
+
+h1 {
+    background-color: aquamarine;
+    margin: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.37);
+}
+
+#addTitle {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.37);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    height: 50px;
+    width: 500px;
+}
+
+#addList {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.37);
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    background-color: rgba(14, 219, 14, 0.836);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+
+#addList:hover {
+    box-shadow: none;
+}
+
+#addTitle:hover {
+    box-shadow: none;
+}
+
+.list {
+    padding: 10px;
+    position: relative;
+    left: 30%;
+    border: 1px solid black;
+    margin: 50px;
+    width: 500px;
+    color: white;
+    text-align: left;
+}
+
+.listelement {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.checkedList {
+    margin: 10px;
+    height: 30px;
+    cursor: pointer;
+    text-decoration: line-through;
+}
+
+.clearList {
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.37);
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+}
+
+.clearList:hover {
+    box-shadow: none;
+}

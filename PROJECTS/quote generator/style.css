@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: rgb(25, 61, 161);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(58, 58, 207);
+}
+
+.displayQuote {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+    margin: 30px;
+    position: relative;
+    left: 25%;
+    height: 100px;
+    width: 700px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+#generate {
+    height: 50px;
+    width: 100px;
+    background: green;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    box-shadow:  0 0 1rem rgba(0, 0, 0, 0.404);
+}

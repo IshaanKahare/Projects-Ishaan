@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" value="" readonly />
+        <div class="calculator-keys">
+            <button type="button" onclick="showVal('+')"class="operator" value="+">+</button>
+            <button type="button" onclick="showVal('-')"class="operator" value="-">-</button>
+            <button type="button" onclick="showVal('&times')"class="operator" value="*">&times;</button>
+            <button type="button" onclick="showVal('&divide')"class="operator" value="/">&divide;</button>
+            <button type="button" onclick="showVal('7')" value="7">7</button>
+            <button type="button" onclick="showVal('8')" value="8">8</button>
+            <button type="button" onclick="showVal('9')" value="9">9</button>
+            <button type="button" onclick="showVal('4')" value="4">4</button>
+            <button type="button" onclick="showVal('5')" value="5">5</button>
+            <button type="button" onclick="showVal('6')" value="6">6</button>
+            <button type="button" onclick="showVal('1')" value="1">1</button>
+            <button type="button" onclick="showVal('2')" value="2">2</button>
+            <button type="button" onclick="showVal('3')" value="3">3</button>
+            <button type="button" onclick="showVal('0')" value="0">0</button>
+            <button type="button" onclick="showVal('.')" class="decimal" value=".">.</button>
+            <button type="button" onclick="allClear()" class="all-clear" value="all-clear">AC</button>
+            <button type="button" onclick="showResult()" class="equal-sign operator" value="=">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
